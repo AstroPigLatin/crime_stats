@@ -89,6 +89,20 @@ Year 2019: 216,412 rows and 28 columns
 
 ![Crime Distribution By Time](images/time_distr.png "Crime Distribution by Time")
 
+## Hypothesis Testing
+
+Null Hypothesis: H<sub>0
+
+> The average time of a crime incident has **NOT** changed between the years 2018 and 2019 in Los Angeles.
+
+Alternative Hypothesis: H<sub>A
+
+> The avaerage time of a crime incident **HAS** changed between the years 2018 and 2019 in Los Angeles.
+
+Significance Level (alpha) = 0.05
+
+![null hypothesis](images/null_hypoth.png "null")
+
 ## Victim Information
 
 - The dataset for 2018 has been filtered from 228,363 to 185,563 observations.
@@ -134,13 +148,13 @@ Year 2019: 216,412 rows and 28 columns
 
 ### The Hangry Hypothesis
 
-- "hangry" = "hungry" + "angry"
 - In both 2018 and 2019, the most frequent time of a crime occured at **12:00PM** noon time.
 - The average time of a crime in 2018 and 2019 was both around **1:54-1:55PM**.
 - In both 2018 and 2019, **Friday** was the day of the week with the highest count of crimes. Saturdays and Mondays were also days of observed crime incidents.
 - The average age of a victim for both years was **39.3 years old**.
 - The most common crime was **BATTERY - SIMPLE ASSAULT**, then followed by BURGLARY FROM VEHICLE, VEHICLE - STOLEN, and THEFT PLAIN - PETTY (\$950 & UNDER).
 - The "hotbed" locations of crime tended to be concentrated in urban districts or tourist areas of Downtown Los Angeles, Hollywood, and Santa Monica.
+- "hangry" = "hungry" + "angry"
 
 ![lunch](images/simpsons.gif)
 
