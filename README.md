@@ -8,9 +8,7 @@ This project will explore the different areas of metropolitan Los Angeles in rel
 
 Original Dataset: Crime Data from 2010 to 2019
 
-This dataset reflects incidents of crime in the City of Los Angeles from 2010 - 2019. This data is transcribed from original crime reports that are typed on paper and therefore there may be some inaccuracies within the data. Some location fields with missing data are noted as (0°, 0°). Address fields are only provided to the nearest hundred block in order to maintain privacy. This data is as accurate as the data in the database. Please note questions or concerns in the comments.
-
-The focus is on two years of crime incident data in LA: 2018 and 2019
+This dataset reflects incidents of crime in the City of Los Angeles from 2010 - 2019. This data is transcribed from original crime reports that are typed on paper and therefore there may be some inaccuracies within the data. Some location fields with missing data are noted as (0°, 0°). Address fields are only provided to the nearest hundred block in order to maintain privacy. This data is as accurate as the data in the database. Please note questions or concerns in the comments. The focus is on two years of crime incident data in LA: 2018 and 2019
 
 - Dataset Source: https://data.lacity.org/A-Safe-City/Crime-Data-from-2010-to-2019/63jg-8b9z
 
@@ -100,3 +98,72 @@ Year 2019: 216,412 rows and 28 columns
 ### By Gender
 
 ![By Gender](images/gender.png)
+
+### By Age
+
+- The average age of a crime victim in **2018** was **39.36** years old with a standard deviation of **15.96**
+- The average age of a crime victim in **2019** was **39.28** years old with a standard deviation of **15.89**
+
+## Geographic Data
+
+### By Zip Code
+
+- The GPS coordinates of latitude and longitude are converted to corresponding Zip Codes using a helper function.
+- A cholorpleth map is used to indicate the Zip Code boundaries and prevalence of crimes.
+
+![Zip Code](images/choro_map.png)
+
+### By Police District
+
+- The LAPD divides their jurisdiction into 21 Police Districts
+  ![Police District](images/choro_map_pd.png)
+
+### By Heatmap
+
+- THe heatmap indicates clusters of total crime incidents from map-level to street-level in accuracy.
+- The individual pins indicate specific crime occurences mapped by GPS coordinates.
+
+![zoom1](images/zoom1.png)
+![zoom3](images/zoom3.png)
+![zoom4](images/zoom4.png)
+
+- At a street-level, there seems to be some higher levels of crime activity near the Los Angeles River or along major freeways.
+  ![zoom5](images/zoom5.png)
+
+## Summary
+
+### The Hangry Hypothesis
+
+- "hangry" = "hungry" + "angry"
+- In both 2018 and 2019, the most frequent time of a crime occured at **12:00PM** noon time.
+- The average time of a crime in 2018 and 2019 was both around **1:54-1:55PM**.
+- In both 2018 and 2019, **Friday** was the day of the week with the highest count of crimes. Saturdays and Mondays were also days of observed crime incidents.
+- The average age of a victim for both years was **39.3 years old**.
+- The most common crime was **BATTERY - SIMPLE ASSAULT**, then followed by BURGLARY FROM VEHICLE, VEHICLE - STOLEN, and THEFT PLAIN - PETTY (\$950 & UNDER).
+- The "hotbed" locations of crime tended to be concentrated in urban districts or tourist areas of Downtown Los Angeles, Hollywood, and Santa Monica.
+
+![lunch](images/simpsons.gif)
+
+- **Analysis**: The criminal hasn't had lunch yet. Therefore, there is a higher probability that a crime will be committed within 2 hours after missing lunch at 12PM noon. Oh, noes!
+- **Takeaway**: Don't mess with people who haven't had their lunch yet, especially in LA. Avoid tourist traps!
+
+## Questions for Discussion
+
+- How does crime compare in your city?
+- What are the social, economic, or political implications of crime?
+- How can we use this data to make better public policy decisions? (e.g., infrastructure, city planning, education)dd
+- How can businesses utilize this data in serving the community with their products and services to the right customer base? (e.g., restaurants, ridesharing, tourism)
+- Are there other factors to consider as a threshold of moving to or away from another city?
+
+## Improvements to Consider
+
+- Convert military time (24hr) to AM/PM time for x-axis on matplotlib histogram
+- Track crime by date for seasonal, monthly, or weekly patterns
+- More hypothesis testing such as Chi-Square and Mann Whitney U-Test
+- Compare crime data with traffic data
+- Look deeper into victim information like victim ethnicity, age, and gender in relation to certain types of crimes
+- Haversine formula and ocean reference point
+- Correlation heatmap
+- Scatterplot of GPS coordinates
+
+![lunch](images/lunch.jpeg)
