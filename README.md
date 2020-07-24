@@ -88,7 +88,7 @@ Utilizing the Web API from the City of LA Open Data website, this projects uses 
 - From the data, the highest occuring crime type for 2018 and 2019 was BATTERY - SIMPLE ASSAULT.
 - Also, the top 10 crime types for both 2018 and 2019 remained the same.
 
-![2018 Crime Type](images/2018_crime_type.png "Top Crime Types 2018") ![2019 Crime Type](images/2019_crime_type.png "Top Crime Types 2019")
+![2018](images/2018_crime_type.png "Top Crime Types 2018") ![2019 (images/2019_crime_type.png "Top Crime Types 2019")
 
 ## Distribution of Crimes by Hour
 
