@@ -125,14 +125,14 @@ Significance Level (alpha) = 0.05
 
 - The most common time of day of a crime incidence occured at **12PM noon** time, regardless of the day week.
 - The day of week and time of day that a crime incident occured was **Monday at 12PM noon** time.
-- The fact that there is a high reported occurence at 12PM noon time may suggest some sort of bias or error in reporting.
+- The fact that there is a high reported occurence at 12PM noon time _may_ suggest some sort of bias or error in reporting.
   ![noon time](images/noon_time.png)
 
 ### New Month, New You
 
 - The most common date of a crime incident was on **New Year's Day**.
 - Interestingly, the top 12 dates where crime occured ALL were on the **FIRST** of the month.
-- The fact that there is a high reported occurence on the FIRST of the month may also suggest some sort of bias or error in reporting.
+- The fact that there is a high reported occurence on the FIRST of the month _may_ also suggest some sort of bias or error in reporting.
   ![new month](images/new_month.png)
 
 ### Holidays are "Holy" Days
@@ -140,7 +140,7 @@ Significance Level (alpha) = 0.05
 - The least common date of a crime incident was on Christmas Day (December 25).
 - Also, note Veteran's Day, a public holiday on November 12 with the 3rd least number of crime incidents that year.
 - February can be considered a month of "love" with such holidays as Valentine's Day, Presidents Day, and Ash Wednesday.
-- The religious overtones of the holidays may have a "Halo effect" or "Honeymoon effect" influencing human behavior to be more "good" during the month of February.
+- The religious overtones of the holidays _may_ have a "Halo effect" or "Honeymoon effect" influencing human behavior to be more "good" during the month of February.
   <br>
   ![holidays](images/holiday.png)
 
@@ -247,3 +247,8 @@ Significance Level (alpha) = 0.05
     - https://en.wikipedia.org/wiki/Violence_begets_violence
   - "Man's inhumanity to man"
     - https://en.wikipedia.org/wiki/Man's_inhumanity_to_man
+- Famous Quotes on Crime:
+  - "Behind every great fortune, there is a crime." --Honore de Balzac
+  - "The chief problem in any community cursed with crime is not the punishment of the criminals, but the preventing of the young from being trained to crime." --W.E.B. DuBois
+  - "Crime and punishment grow out of one stem. Punishment is a fruit that, unsuspected, ripens with the flower of the pleasure that concealed it." -- Ralph Waldo Emerson
+  - "Poverty is the mother of crime." --Marcus Aurelius
