@@ -169,6 +169,8 @@ Significance Level (alpha) = 0.05
 - How can businesses utilize this data in serving the community with their products and services to the right customer base? (e.g., restaurants, ridesharing, tourism)
 - Are there other factors to consider as a threshold of moving to or away from another city?
 
+![Crime](images/cartoon.png)
+
 ## Improvements to Consider
 
 - Convert military time (24hr) to AM/PM time for x-axis on matplotlib histogram
