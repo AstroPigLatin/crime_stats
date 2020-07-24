@@ -76,12 +76,10 @@ Utilizing the Web API from the City of LA Open Data website, this projects uses 
 
 ### Top 10 Areas of Crime
 
-- The top 10 areas of crime have not changed for both years of 2018 and 2019.
-- The area of "77th Street" has been the location of the highest number of crime incidents in both 2018 and 2019.
+- The **top 10 areas of crime** have NOT changed for both years of 2018 and 2019.
+- The area of **"77th Street**" has been the location of the highest number of crime incidents in both 2018 and 2019.
 
 <img src="images/area_2018_barplot.png" alt="raw" width=50% height=50%/><img src="images/area_2019_barplot.png" alt="raw" width=50% height=50%>
-
-s
 
 ### Top 10 Crime Types
 
@@ -111,13 +109,13 @@ Null Hypothesis: H<sub>0
 
 Alternative Hypothesis: H<sub>A
 
-> The avaerage time of a crime incident **HAS** changed between the years 2018 and 2019 in Los Angeles.
+> The average time of a crime incident **HAS** changed between the years 2018 and 2019 in Los Angeles.
 
 Significance Level (alpha) = 0.05
 
 ![null hypothesis](images/null_hypoth.png "null")
 
-< -- # // TODO: Hypothesis Testing -- statistical signicance of higher crime incident on New Years Day 2018?? -- >
+<!-- # // TODO: Hypothesis Testing -- statistical signicance of higher crime incident on New Years Day 2018?? -->
 
 ## Date, Time, and Day of Week
 
@@ -131,14 +129,14 @@ Significance Level (alpha) = 0.05
 ### New Month, New You
 
 - The most common date of a crime incident was on **New Year's Day**.
-- Interestingly, the top 12 dates where crime occured ALL were on the **FIRST** of the month.
+- Interestingly, the **top 12** dates where crime occured ALL were on the **FIRST** of the month.
 - The fact that there is a high reported occurence on the FIRST of the month _may_ also suggest some sort of bias or error in reporting.
   ![new month](images/new_month.png)
 
 ### Holidays are "Holy" Days
 
-- The least common date of a crime incident was on Christmas Day (December 25).
-- Also, note Veteran's Day, a public holiday on November 12 with the 3rd least number of crime incidents that year.
+- The date with the fewest count of crime incident was on **Christmas Day** (December 25).
+- Also, note the public holiday **Veteran's Day** (November 12) with the 3rd least number of crime incidents that year.
 - February can be considered a month of "love" with such holidays as Valentine's Day, Presidents Day, and Ash Wednesday.
 - The religious overtones of the holidays _may_ have a "Halo effect" or "Honeymoon effect" influencing human behavior to be more "good" during the month of February.
   <br>
@@ -198,6 +196,7 @@ Significance Level (alpha) = 0.05
 
 - In both 2018 and 2019, the most frequent time of a crime occured at **12:00PM** noon time.
 - The average time of a crime in 2018 and 2019 was both around **1:54-1:55PM**.
+- The highest count of crime incidents occured on **Monday at 12:00PM**.
 - In both 2018 and 2019, **Friday** was the day of the week with the highest count of crimes. Saturdays and Mondays were also days of observed crime incidents.
 - The average age of a victim for both years was **39.3 years old**.
 - The most common crime was **BATTERY - SIMPLE ASSAULT**, then followed by BURGLARY FROM VEHICLE, VEHICLE - STOLEN, and THEFT PLAIN - PETTY (\$950 & UNDER).
@@ -222,7 +221,7 @@ Significance Level (alpha) = 0.05
 - How can businesses utilize this data in serving the community with their products and services to the right customer base? (e.g., restaurants, ridesharing, tourism)
 - Are there other factors to consider as a threshold of moving to or away from another city?
 
-<img src="images/cartoon.png" alt="raw" width=70% height=70%/>
+<img src="images/cartoon.png" alt="raw" width=50% height=50%/>
 
 ## Improvements to Consider
 
@@ -236,7 +235,7 @@ Significance Level (alpha) = 0.05
 - Scatterplot of GPS coordinates
 - Time series analysis of crimes in a 24-hour period
 
-![lunch](images/lunch.jpeg)
+![monday](images/monday.gif)
 
 ## Food for Thought:
 
@@ -252,3 +251,5 @@ Significance Level (alpha) = 0.05
   - "The chief problem in any community cursed with crime is not the punishment of the criminals, but the preventing of the young from being trained to crime." --W.E.B. DuBois
   - "Crime and punishment grow out of one stem. Punishment is a fruit that, unsuspected, ripens with the flower of the pleasure that concealed it." -- Ralph Waldo Emerson
   - "Poverty is the mother of crime." --Marcus Aurelius
+
+![lunch](images/lunch.jpeg)
