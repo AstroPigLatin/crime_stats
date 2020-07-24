@@ -66,9 +66,9 @@ Utilizing the Web API from the City of LA Open Data website, this projects uses 
 
 #### Overall Crime Statistics
 
-- There were 228,363 reported crime incidents that occured within the 2018 calendar year.
-- There were 216,412 reported crime incidents that occured within the 2019 calendar year.
-- This was a decrease of 11,951 crime incidents, a decrease of 5.23%.
+- There were **228,363** reported crime incidents that occured within the **2018** calendar year.
+- There were **216,412** reported crime incidents that occured within the **2019** calendar year.
+- This was a decrease of **11,951** crime incidents, a decrease of _5.23%_.
 
 ### Unique Crime Types and Premises
 
@@ -81,14 +81,16 @@ Utilizing the Web API from the City of LA Open Data website, this projects uses 
 
 <img src="images/area_2018_barplot.png" alt="raw" width=50% height=50%/><img src="images/area_2019_barplot.png" alt="raw" width=50% height=50%>
 
-# Analysis
+s
 
-## Top 10 Crime Types
+### Top 10 Crime Types
 
 - From the data, the highest occuring crime type for 2018 and 2019 was BATTERY - SIMPLE ASSAULT.
 - Also, the top 10 crime types for both 2018 and 2019 remained the same.
 
 <img src="images/2018_crime_type.png" alt="raw" width=50% height=50%/><img src="images/2019_crime_type.png" alt="raw" width=50% height=50%>
+
+# Analysis
 
 ## Distribution of Crimes by Hour
 
@@ -197,7 +199,7 @@ Significance Level (alpha) = 0.05
 
 ![lunch](images/simpsons.gif)
 
-**Takeaway**:
+## Main Takeaways
 
 - Don't mess with people who haven't had their lunch yet, especially around 12-2PM!
 - Avoid tourist traps or other heavily populated areas of the city!
@@ -235,3 +237,5 @@ Significance Level (alpha) = 0.05
     - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5227928/
   - "Violence begets violence."
     - https://en.wikipedia.org/wiki/Violence_begets_violence
+  - "Man's inhumanity to man"
+    - https://en.wikipedia.org/wiki/Man's_inhumanity_to_man
