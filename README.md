@@ -79,7 +79,7 @@ Utilizing the Web API from the City of LA Open Data website, this projects uses 
 - The top 10 areas of crime have not changed for both years of 2018 and 2019.
 - The area of "77th Street" has been the location of the highest number of crime incidents in both 2018 and 2019.
 
-![2018 Top Areas](images/area_2018_barplot.png "Top Areas of Crime 2018") ![2019 Top Areas](images/area_2019_barplot.png "Top Areas of Crime 2019")
+<img src="images/area_2018_barplot.png" alt="raw" width=50% height=50%/><img src="images/area_2019_barplot.png" alt="raw" width=50% height=50%>
 
 # Analysis
 
@@ -88,7 +88,7 @@ Utilizing the Web API from the City of LA Open Data website, this projects uses 
 - From the data, the highest occuring crime type for 2018 and 2019 was BATTERY - SIMPLE ASSAULT.
 - Also, the top 10 crime types for both 2018 and 2019 remained the same.
 
-![2018 Crime Type](images/2018_crime_type.png "Top Crime Types 2018") ![2019 Crime Type](images/2019_crime_type.png "Top Crime Types 2019")
+<img src="images/2018_crime_type.png" alt="raw" width=50% height=50%/><img src="images/2019_crime_type.png" alt="raw" width=50% height=50%>
 
 ## Distribution of Crimes by Hour
 
@@ -138,7 +138,7 @@ Significance Level (alpha) = 0.05
 - The least common date of a crime incident was on Christmas Day (December 25).
 - Also, note Veteran's Day, a public holiday on November 12 with the 3rd least number of crime incidents that year.
 - February can be considered a month of "love" with such holidays as Valentine's Day, Presidents Day, and Ash Wednesday.
-- The religious overtones of the holidays may have a "Halo effect" or "Honeymoon effect" on human behaviors during the same month.
+- The religious overtones of the holidays may have a "Halo effect" or "Honeymoon effect" influencing human behavior to be more "good" during the month of February.
   <br>
   ![holidays](images/holiday.png)
 
@@ -213,7 +213,7 @@ Significance Level (alpha) = 0.05
 - How can businesses utilize this data in serving the community with their products and services to the right customer base? (e.g., restaurants, ridesharing, tourism)
 - Are there other factors to consider as a threshold of moving to or away from another city?
 
-![Crime|](images/cartoon.png){ width=50% }
+<img src="images/cartoon.png" alt="raw" width=50% height=50%/>
 
 ## Improvements to Consider
 
