@@ -43,7 +43,7 @@ Data Provided By: Los Angeles Police Department
 
 - What areas and zip codes have the highest number of crime incidents?
 
-- How has the rate of crime changed from the years2018 to 2019.
+- How has the rate of crime changed from the years 2018 to 2019.
 
 - Are certain premises or location surroundings more prone to certain types of crime?
 
@@ -92,12 +92,12 @@ Utilizing the Web API from the City of LA Open Data website, this projects uses 
 
 ## Distribution of Crimes by Hour
 
-- In 2018, the average time of a crime is **1:55PM**. <br>
-  The median time of a crime is **2:30PM**. <br> The mode time of a crime is **12:00PM**.
+### Summary Statistics
 
-- In 2019, the average time of a crime is **1:54PM**. <br>
-  The median time of a crime is **2:30PM**. <br>
-  The mode time of a crime is **12:00PM**.
+| Year | Average Time | Median Time | Mode Time |
+| ---- | ------------ | ----------- | --------- |
+| 2018 | 1:55PM       | 2:30PM      | 12:00PM   |
+| 2019 | 1:54PM       | 2:30PM      | 12:00PM   |
 
 ![Crime Distribution By Time](images/time_distr.png "Crime Distribution by Time")
 
@@ -114,6 +114,8 @@ Alternative Hypothesis: H<sub>A
 Significance Level (alpha) = 0.05
 
 ![null hypothesis](images/null_hypoth.png "null")
+
+< -- # // TODO: Hypothesis Testing -- statistical signicance of higher crime incident on New Years Day 2018?? -- >
 
 ## Date, Time, and Day of Week
 
