@@ -4,6 +4,10 @@
 
 This project will explore the different areas of metropolitan Los Angeles in relation to crime statistics provided by the Open Data City of LA website. There may be some promising insights as to location, victim profile, crime type, and time/date in relation to crime incidents.
 
+## Contents
+[Dataset Inormation](##Dataset Information]
+[Exploratory Data Analysis](#Exploratory Data Analysis)
+
 ## Dataset Information
 
 Original Dataset: Crime Data from 2010 to 2019
