@@ -79,7 +79,8 @@ Utilizing the Web API from the City of LA Open Data website, this projects uses 
 - The top 10 areas of crime have not changed for both years of 2018 and 2019.
 - The area of "77th Street" has been the location of the highest number of crime incidents in both 2018 and 2019.
 
-<img src="images/area_2018_barplot.png" width="425"/> <img src="images/area_2019_barplot.png" width="425"/>
+<img align="left" src="images/area_2018_barplot.png" width="425"/>
+ <img  align="left" src="images/area_2019_barplot.png" width="425"/>
 
 # Analysis
 
