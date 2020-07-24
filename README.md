@@ -79,7 +79,7 @@ Utilizing the Web API from the City of LA Open Data website, this projects uses 
 - The top 10 areas of crime have not changed for both years of 2018 and 2019.
 - The area of "77th Street" has been the location of the highest number of crime incidents in both 2018 and 2019.
 
-| [![2018 Top Areas](images/area_2018_barplot.png "Top Areas of Crime 2018")] | [![2019 Top Areas](images/area_2019_barplot.png "Top Areas of Crime 2019")]|
+<img src="images/area_2018_barplot.png" width="425"/> <img src="images/area_2019_barplot.png" width="425"/>
 
 # Analysis
 
@@ -88,7 +88,7 @@ Utilizing the Web API from the City of LA Open Data website, this projects uses 
 - From the data, the highest occuring crime type for 2018 and 2019 was BATTERY - SIMPLE ASSAULT.
 - Also, the top 10 crime types for both 2018 and 2019 remained the same.
 
-![2018 Crime Type](images/2018_crime_type.png "Top Crime Types 2018") ![2019 Crime Type](images/2019_crime_type.png "Top Crime Types 2019")
+<img src="images/2018_crime_type.png" width="425"/> <img src="images/2019_crime_type.png" width="425"/>
 
 ## Distribution of Crimes by Hour
 
