@@ -4,7 +4,17 @@
 
 This project will explore the different areas of metropolitan Los Angeles in relation to crime statistics provided by the Open Data City of LA website. There may be some promising insights as to location, victim profile, crime type, and time/date in relation to crime incidents.
 
-## Dataset Information
+## Contents
+
+1. [Dataset](#Dataset)
+2. [Questions](#Questions)
+3. [Exploration](#Exploration)
+4. [Analysis](#Analysis)
+5. [Geography](#Geography)
+6. [Summary](#Summary)
+7. [Discussion](#Discussion)
+
+# Dataset
 
 Original Dataset: Crime Data from 2010 to 2019
 
@@ -25,7 +35,7 @@ Data Provided By: Los Angeles Police Department
 - MO Codes (Modus Operandi criminal codes):
   https://data.lacity.org/api/views/63jg-8b9z/files/3db69cd3-446c-4dcd-82eb-3436dc08d3be?download=true&filename=MO_CODES_Numerical_20180627.pdf
 
-## Questions of Exploration
+# Questions
 
 - What are some descriptive statistics of victim profile of crime incidents? (age, gender, ethnicity)
 
@@ -39,14 +49,14 @@ Data Provided By: Los Angeles Police Department
 
 - What insights can be inferred from geolocation data such as GPS coordinates of certain patterns of crime?
 
-## Data Exploration
+# Exploration
 
-The raw dataset contains 2.11 million entries and 28 columns for all years from 2010 2019.
+The raw dataset contains 2.11 million entries and 28 columns for all years from 2010 to 2019.
 
 Utilizing the Web API from the City of LA Open Data website, this projects uses a SQL query to filter and focus on crime incidents occuring in the years 2018 and 2019.
 
-Year 2018: 228,363 rows and 28 columns <br>
-Year 2019: 216,412 rows and 28 columns
+- Year 2018: 228,363 rows and 28 columns <br>
+- Year 2019: 216,412 rows and 28 columns
 
 ![Table Preview](images/table_preview.png)
 
@@ -70,6 +80,8 @@ Year 2019: 216,412 rows and 28 columns
 - The area of "77th Street" has been the location of the highest number of crime incidents in both 2018 and 2019.
 
 ![2018 Top Areas](images/area_2018_barplot.png "Top Areas of Crime 2018") ![2019 Top Areas](images/area_2019_barplot.png "Top Areas of Crime 2019")
+
+# Analysis
 
 ## Top 10 Crime Types
 
@@ -103,6 +115,31 @@ Significance Level (alpha) = 0.05
 
 ![null hypothesis](images/null_hypoth.png "null")
 
+## Date, Time, and Day of Week
+
+### "Noon"-Time Madness
+
+- The most common time of day of a crime incidence occured at **12PM noon** time, regardless of the day week.
+- The day of week and time of day that a crime incident occured was **Monday at 12PM noon** time.
+- The fact that there is a high reported occurence at 12PM noon time may suggest some sort of bias or error in reporting.
+  ![noon time](images/noon_time.png)
+
+### New Month, New You
+
+- The most common date of a crime incident was on **New Year's Day**.
+- Interestingly, the top 12 dates where crime occured ALL were on the **FIRST** of the month.
+- The fact that there is a high reported occurence on the FIRST of the month may also suggest some sort of bias or error in reporting.
+  ![new month](images/new_month.png)
+
+### Holidays are "Holy" Days
+
+- The least common date of a crime incident was on Christmas Day (December 25).
+- Also, note Veteran's Day, a public holiday on November 12 with the 3rd least number of crime incidents that year.
+- February can be considered a month of "love" with such holidays as Valentine's Day, Presidents Day, and Ash Wednesday.
+- The religious overtones of the holidays may have a "Halo effect" or "Honeymoon effect" on human behaviors during the same month.
+  <br>
+  ![holidays](images/holiday.png)
+
 ## Victim Information
 
 - The dataset for 2018 has been filtered from 228,363 to 185,563 observations.
@@ -118,21 +155,21 @@ Significance Level (alpha) = 0.05
 - The average age of a crime victim in **2018** was **39.36** years old with a standard deviation of **15.96**
 - The average age of a crime victim in **2019** was **39.28** years old with a standard deviation of **15.89**
 
-## Geographic Data
+# Geography
 
-### By Zip Code
+## By Zip Code
 
 - The GPS coordinates of latitude and longitude are converted to corresponding Zip Codes using a helper function.
 - A cholorpleth map is used to indicate the Zip Code boundaries and prevalence of crimes.
 
 ![Zip Code](images/choro_map.png)
 
-### By Police District
+## By Police District
 
 - The LAPD divides their jurisdiction into 21 Police Districts
   ![Police District](images/choro_map_pd.png)
 
-### By Heatmap
+## By Heatmap
 
 - THe heatmap indicates clusters of total crime incidents from map-level to street-level in accuracy.
 - The individual pins indicate specific crime occurences mapped by GPS coordinates.
@@ -144,9 +181,9 @@ Significance Level (alpha) = 0.05
 - At a street-level, there seems to be some higher levels of crime activity near the Los Angeles River or along major freeways.
   ![zoom5](images/zoom5.png)
 
-## Summary
+# Summary
 
-### The Hangry Hypothesis
+## The "Hangry" Hypothesis
 
 - In both 2018 and 2019, the most frequent time of a crime occured at **12:00PM** noon time.
 - The average time of a crime in 2018 and 2019 was both around **1:54-1:55PM**.
@@ -158,10 +195,15 @@ Significance Level (alpha) = 0.05
 
 ![lunch](images/simpsons.gif)
 
-- **Analysis**: The criminal hasn't had lunch yet. Therefore, there is a higher probability that a crime will be committed within 2 hours after missing lunch at 12PM noon. Oh, noes!
-- **Takeaway**: Don't mess with people who haven't had their lunch yet, especially in LA. Avoid tourist traps!
+**Takeaway**:
 
-## Questions for Discussion
+- Don't mess with people who haven't had their lunch yet, especially around 12-2PM!
+- Avoid tourist traps or other heavily populated areas of the city!
+- Be careful on the first of every new month, especially New Year's Day!
+
+![lunch](images/new_year.gif)
+
+# Discussion
 
 - How does crime compare in your city?
 - What are the social, economic, or political implications of crime?
@@ -169,7 +211,7 @@ Significance Level (alpha) = 0.05
 - How can businesses utilize this data in serving the community with their products and services to the right customer base? (e.g., restaurants, ridesharing, tourism)
 - Are there other factors to consider as a threshold of moving to or away from another city?
 
-![Crime](images/cartoon.png)
+![Crime|](images/cartoon.png){ width=50% }
 
 ## Improvements to Consider
 
@@ -183,3 +225,11 @@ Significance Level (alpha) = 0.05
 - Scatterplot of GPS coordinates
 
 ![lunch](images/lunch.jpeg)
+
+## Food for Thought:
+
+- Is violence contagious?
+  - "According to social learning theory, people learn aggressive and violent behaviors the same way they learn other social behaviors: by direct experience and by observing others and imitating their behavior."
+    - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5227928/
+  - "Violence begets violence."
+    - https://en.wikipedia.org/wiki/Violence_begets_violence
