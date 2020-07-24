@@ -146,8 +146,8 @@ Significance Level (alpha) = 0.05
 
 ## Victim Information
 
-- The dataset for 2018 has been filtered from 228,363 to 185,563 observations.
-- The dataset for 2019 has been filtered from 216,412 to 174,715 observations.
+- The dataset for 2018 has been filtered from 228,363 to **185,563** observations.
+- The dataset for 2019 has been filtered from 216,412 to **174,715** observations.
 - Data cleaning was applied by removing any null values and limiting victim ages of 1-98 years old.
 
 ### By Gender
@@ -202,7 +202,7 @@ Significance Level (alpha) = 0.05
 ## Main Takeaways
 
 - Don't mess with people who haven't had their lunch yet, especially around 12-2PM!
-- Avoid tourist traps or other heavily populated areas of the city!
+- Avoid tourist traps or other heavily populated urban areas of the city!
 - Be careful on the first of every new month, especially New Year's Day!
 
 ![lunch](images/new_year.gif)
@@ -215,7 +215,7 @@ Significance Level (alpha) = 0.05
 - How can businesses utilize this data in serving the community with their products and services to the right customer base? (e.g., restaurants, ridesharing, tourism)
 - Are there other factors to consider as a threshold of moving to or away from another city?
 
-<img src="images/cartoon.png" alt="raw" width=50% height=50%/>
+<img src="images/cartoon.png" alt="raw" width=70% height=70%/>
 
 ## Improvements to Consider
 
