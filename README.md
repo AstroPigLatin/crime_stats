@@ -43,7 +43,7 @@ Data Provided By: Los Angeles Police Department
 
 - What areas and zip codes have the highest number of crime incidents?
 
-- How has the rate of crime changed from the years 2018 to 2019.
+- How has the rate of crime changed from the years 2018 to 2019?
 
 - Are certain premises or location surroundings more prone to certain types of crime?
 
@@ -55,8 +55,8 @@ The raw dataset contains 2.11 million entries and 28 columns for all years from 
 
 Utilizing the Web API from the City of LA Open Data website, this projects uses a SQL query to filter and focus on crime incidents occuring in the years 2018 and 2019.
 
-- Year 2018: 228,363 rows and 28 columns <br>
-- Year 2019: 216,412 rows and 28 columns
+- **Year 2018:** 228,363 rows and 28 columns <br>
+- **Year 2019:** 216,412 rows and 28 columns
 
 ![Table Preview](images/table_preview.png)
 
@@ -85,7 +85,7 @@ s
 
 ### Top 10 Crime Types
 
-- From the data, the highest occuring crime type for 2018 and 2019 was BATTERY - SIMPLE ASSAULT.
+- From the data, the highest occuring crime type for 2018 and 2019 was **BATTERY - SIMPLE ASSAULT.**
 - Also, the top 10 crime types for both 2018 and 2019 remained the same.
 
 <img src="images/2018_crime_type.png" alt="raw" width=50% height=50%/><img src="images/2019_crime_type.png" alt="raw" width=50% height=50%>
@@ -161,6 +161,13 @@ Significance Level (alpha) = 0.05
 
 # Geography
 
+## Concentrated Hotspots of Crime
+
+- The larger circles indicated more concentrated hotspots of crime incidents.
+- The largest circles are colored black refers to counts of 400 or more crime incidents.
+- Notice the 3 large black circles on the map indicating highest concentration of crime incidents.
+  ![Concentrated](images/concentrated_2019.png)
+
 ## By Zip Code
 
 - The GPS coordinates of latitude and longitude are converted to corresponding Zip Codes using a helper function.
@@ -227,6 +234,7 @@ Significance Level (alpha) = 0.05
 - Haversine formula and ocean reference point
 - Correlation heatmap
 - Scatterplot of GPS coordinates
+- Time series analysis of crimes in a 24-hour period
 
 ![lunch](images/lunch.jpeg)
 
