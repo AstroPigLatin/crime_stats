@@ -68,7 +68,7 @@ Utilizing the Web API from the City of LA Open Data website, this projects uses 
 
 - There were **228,363** reported crime incidents that occured within the **2018** calendar year.
 - There were **216,412** reported crime incidents that occured within the **2019** calendar year.
-- This was a decrease of **11,951** crime incidents, a decrease of _5.23%_.
+- This was a decrease of **11,951** crime incidents, a decrease of **5.23%**.
 
 ### Unique Crime Types and Premises
 
