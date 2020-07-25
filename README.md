@@ -237,7 +237,7 @@ Significance Level (alpha) = 0.05
 
 ![monday](images/monday.gif)
 
-## Food for Thought:
+## Food for Thought
 
 - Is violence contagious?
   - "According to social learning theory, people learn aggressive and violent behaviors the same way they learn other social behaviors: by direct experience and by observing others and imitating their behavior."
@@ -246,7 +246,7 @@ Significance Level (alpha) = 0.05
     - https://en.wikipedia.org/wiki/Violence_begets_violence
   - "Man's inhumanity to man"
     - https://en.wikipedia.org/wiki/Man's_inhumanity_to_man
-- Famous Quotes on Crime:
+- Famous Quotes on Crime
   - "Behind every great fortune, there is a crime." --Honore de Balzac
   - "The chief problem in any community cursed with crime is not the punishment of the criminals, but the preventing of the young from being trained to crime." --W.E.B. DuBois
   - "Crime and punishment grow out of one stem. Punishment is a fruit that, unsuspected, ripens with the flower of the pleasure that concealed it." -- Ralph Waldo Emerson
