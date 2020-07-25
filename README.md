@@ -146,7 +146,7 @@ Significance Level (alpha) = 0.05
 
 - The dataset for 2018 has been filtered from 228,363 to **185,563** observations.
 - The dataset for 2019 has been filtered from 216,412 to **174,715** observations.
-- Data cleaning was applied by removing any null values and limiting victim ages of 1-98 years old.
+- Data cleaning was applied by removing any null values and limiting victim age range to **1 to 98 years old**.
 
 ### By Gender
 
@@ -200,8 +200,8 @@ Significance Level (alpha) = 0.05
 - In both 2018 and 2019, **Friday** was the day of the week with the highest count of crimes. Saturdays and Mondays were also days of high observed crime incidents.
 - The average age of a victim for both years was **39.3 years old**.
 - The most common crime was **BATTERY - SIMPLE ASSAULT**, then followed by BURGLARY FROM VEHICLE, VEHICLE - STOLEN, and THEFT PLAIN - PETTY (\$950 & UNDER).
-- The "hotbed" locations of crime tended to be concentrated in urban districts or tourist areas of Downtown Los Angeles, Hollywood, and Santa Monica.
-- "hangry" = "hungry" + "angry"
+- The "hotbed" locations of crime tended to be concentrated in urban districts or tourist areas of **Downtown Los Angeles, Hollywood, and Santa Monica**.
+- **"hangry" = "hungry" + "angry"**
 
 ![lunch](images/simpsons.gif)
 
