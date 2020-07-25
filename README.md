@@ -84,7 +84,7 @@ Utilizing the Web API from the City of LA Open Data website, this projects uses 
 ### Top 10 Crime Types
 
 - From the data, the highest occuring crime type for 2018 and 2019 was **BATTERY - SIMPLE ASSAULT.**
-- Also, the top 10 crime types for both 2018 and 2019 remained the same.
+- Also, the **top 10 crime types** for both 2018 and 2019 remained the same.
 
 <img src="images/2018_crime_type.png" alt="raw" width=50% height=50%/><img src="images/2019_crime_type.png" alt="raw" width=50% height=50%>
 
@@ -197,7 +197,7 @@ Significance Level (alpha) = 0.05
 - In both 2018 and 2019, the most frequent time of a crime occured at **12:00PM** noon time.
 - The average time of a crime in 2018 and 2019 was both around **1:54-1:55PM**.
 - The highest count of crime incidents occured on **Monday at 12:00PM**.
-- In both 2018 and 2019, **Friday** was the day of the week with the highest count of crimes. Saturdays and Mondays were also days of observed crime incidents.
+- In both 2018 and 2019, **Friday** was the day of the week with the highest count of crimes. Saturdays and Mondays were also days of high observed crime incidents.
 - The average age of a victim for both years was **39.3 years old**.
 - The most common crime was **BATTERY - SIMPLE ASSAULT**, then followed by BURGLARY FROM VEHICLE, VEHICLE - STOLEN, and THEFT PLAIN - PETTY (\$950 & UNDER).
 - The "hotbed" locations of crime tended to be concentrated in urban districts or tourist areas of Downtown Los Angeles, Hollywood, and Santa Monica.
