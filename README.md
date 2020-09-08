@@ -1,5 +1,7 @@
 # City of Lost Angels: Analyzing Crime in Metropolitan Los Angeles
 
+![police](images/lapolice.png)
+
 ## Overview
 
 This project will explore the different areas of metropolitan Los Angeles in relation to crime statistics provided by the Open Data City of LA website. There may be some promising insights as to location, victim profile, crime type, and time/date in relation to crime incidents.
